@@ -4,4 +4,5 @@
   (lib (name oscxo)(type KiCad)(uri "$(KIPRJMOD)/footprints/crystal/oscxo.pretty")(options "")(descr ""))
   (lib (name SOA008-150mil)(type KiCad)(uri "$(KIPRJMOD)/footprints/flash/SOA008-150mil.pretty")(options "")(descr ""))
   (lib (name audio-jack)(type KiCad)(uri "$(KIPRJMOD)/footprints/audio-jack/audio-jack.pretty")(options "")(descr ""))
+  (lib (name micro-hdmi-d)(type KiCad)(uri "$(KIPRJMOD)/footprints/micro-hdmi-d/micro-hdmi-d.pretty")(options "")(descr ""))
 )

@@ -39,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 11 11
 Title ""
 Date ""
 Rev ""
@@ -50,14 +50,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Audio-Jack-5 J6
-U 1 1 5A133C61
-P 3650 2450
-F 0 "J6" H 3600 2660 50  0000 C CNN
-F 1 "Audio-Jack-5" H 3675 2075 50  0000 C CNN
-F 2 "audio-jack:CUI_SJ-43516-SMT" H 3900 2550 50  0001 C CNN
-F 3 "" H 3900 2550 50  0001 C CNN
-	1    3650 2450
+L MICRO-HDMI-D P1
+U 1 1 5A1343A9
+P 3500 3650
+F 0 "P1" H 3500 4700 50  0000 C CNN
+F 1 "MICRO-HDMI-D" V 3600 3650 50  0000 C CNN
+F 2 "micro-hdmi-d:MICRO-HDMI-D" H 3500 3650 60  0001 C CNN
+F 3 "" H 3500 3650 60  0000 C CNN
+	1    3500 3650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

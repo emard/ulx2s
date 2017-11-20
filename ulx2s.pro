@@ -1,4 +1,4 @@
-update=Pon 20 Stu 2017 20:54:50
+update=Pon 20 Stu 2017 22:01:12
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,4 @@ LibName31=contrib
 LibName32=valves
 LibName33=footprints/lattice/lfxp2-xe-xtn144x
 LibName34=footprints/usbserial/ftdi
+LibName35=footprints/micro-hdmi-d/micro-hdmi-d

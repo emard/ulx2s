@@ -33,12 +33,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:lfxp2-xe-xtn144x
 LIBS:ftdi
+LIBS:micro-hdmi-d
 LIBS:ulx2s-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -101,5 +102,11 @@ S 10150 5400 550  400
 U 5A133C56
 F0 "audio" 60
 F1 "audio.sch" 60
+$EndSheet
+$Sheet
+S 10150 6000 550  400 
+U 5A13439C
+F0 "gpdi" 60
+F1 "gpdi.sch" 60
 $EndSheet
 $EndSCHEMATC
