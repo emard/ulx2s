@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:lfxp2-xe-xtn144x
+LIBS:ftdi
 LIBS:ulx2s-cache
 EELAYER 25 0
 EELAYER END
@@ -163,4 +164,15 @@ Text GLabel 3900 1750 2    60   Input ~ 0
 JTAG_TMS
 Text GLabel 3900 1650 2    60   Input ~ 0
 JTAG_TDI
+$Comp
+L FT232RL U3
+U 1 1 5A1333CB
+P 5850 3000
+F 0 "U3" H 5200 3900 50  0000 L CNN
+F 1 "FT232RL" H 6250 3900 50  0000 L CNN
+F 2 "SSOP-28" H 5850 3000 50  0001 C CNN
+F 3 "" H 5850 3000 50  0001 C CNN
+	1    5850 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

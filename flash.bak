@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:lfxp2-xe-xtn144x
+LIBS:ftdi
 LIBS:ulx2s-cache
 EELAYER 25 0
 EELAYER END

@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:lfxp2-xe-xtn144x
+LIBS:ftdi
 LIBS:ulx2s-cache
 EELAYER 25 0
 EELAYER END
@@ -54,7 +55,8 @@ P 4350 3900
 F 0 "U2" H 4000 5150 50  0000 C CNN
 F 1 "AS6C1616" H 4600 2650 50  0000 C CNN
 F 2 "Housings_SSOP:TSOP-I-48_18.4x12mm_Pitch0.5mm" H 5400 2550 50  0001 C CNN
-F 3 "" H 4050 4350 50  0001 C CNN
+F 3 "http://www.nxlab.fer.hr/dl/ALLIANCE_SRAM.pdf" H 4050 4350 50  0001 C CNN
+F 4 "www.mouser.com" H 4350 3900 60  0001 C CNN "Distributor1_URL"
 	1    4350 3900
 	1    0    0    -1  
 $EndComp
@@ -91,4 +93,6 @@ F 3 "" H 4350 2500 50  0001 C CNN
 	1    4350 2500
 	1    0    0    -1  
 $EndComp
+Text Notes 5350 5050 0    60   ~ 0
+Warning this is not the right SRAM chip\nPart is AS6C8016, TSOP-II-44 pin pitch 0.8 mm
 $EndSCHEMATC

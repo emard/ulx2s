@@ -1,4 +1,4 @@
-update=Pon 20 Stu 2017 19:27:12
+update=Pon 20 Stu 2017 20:54:50
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=footprints/lattice/lfxp2-xe-xtn144x
+LibName34=footprints/usbserial/ftdi
