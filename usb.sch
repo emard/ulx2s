@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -53,7 +53,7 @@ P 2450 2550
 F 0 "J4" H 2250 3000 50  0000 L CNN
 F 1 "USB_OTG" H 2250 2900 50  0000 L CNN
 F 2 "usb_otg:USB-MICRO-B-FCI-10118192-0001LF" H 2600 2500 50  0001 C CNN
-F 3 "" H 2600 2500 50  0001 C CNN
+F 3 "portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 2600 2500 50  0001 C CNN
 	1    2450 2550
 	1    0    0    -1  
 $EndComp
@@ -84,7 +84,7 @@ L Crystal_GND24 Y1
 U 1 1 5A12CDCB
 P 3550 4050
 F 0 "Y1" H 3675 4250 50  0000 L CNN
-F 1 "Crystal_GND24" H 3675 4175 50  0000 L CNN
+F 1 "FNETHE025" H 3675 4175 50  0000 L CNN
 F 2 "oscxo:Crystal_SMD_7050_4Pads" H 3550 4050 50  0001 C CNN
 F 3 "" H 3550 4050 50  0001 C CNN
 	1    3550 4050
@@ -130,6 +130,36 @@ F 1 "Conn_01x06" H 3700 1050 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 3700 1450 50  0001 C CNN
 F 3 "" H 3700 1450 50  0001 C CNN
 	1    3700 1450
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
+$Comp
+L +3V3 #PWR06
+U 1 1 5A12F29D
+P 3900 1250
+F 0 "#PWR06" H 3900 1100 50  0001 C CNN
+F 1 "+3V3" H 3900 1390 50  0000 C CNN
+F 2 "" H 3900 1250 50  0001 C CNN
+F 3 "" H 3900 1250 50  0001 C CNN
+	1    3900 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 5A12F2BA
+P 3900 1350
+F 0 "#PWR07" H 3900 1100 50  0001 C CNN
+F 1 "GND" H 3900 1200 50  0000 C CNN
+F 2 "" H 3900 1350 50  0001 C CNN
+F 3 "" H 3900 1350 50  0001 C CNN
+	1    3900 1350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3900 1450 2    60   Input ~ 0
+JTAG_TCK
+Text GLabel 3900 1550 2    60   Input ~ 0
+JTAG_TDO
+Text GLabel 3900 1750 2    60   Input ~ 0
+JTAG_TMS
+Text GLabel 3900 1650 2    60   Input ~ 0
+JTAG_TDI
 $EndSCHEMATC

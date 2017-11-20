@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -69,5 +69,11 @@ S 7800 5400 650  400
 U 5A12D02C
 F0 "blinkey" 60
 F1 "blinkey.sch" 60
+$EndSheet
+$Sheet
+S 8650 5400 600  400 
+U 5A12F4E1
+F0 "flash" 60
+F1 "flash.sch" 60
 $EndSheet
 $EndSCHEMATC

@@ -2,4 +2,5 @@
   (lib (name micro-sd)(type KiCad)(uri "$(KIPRJMOD)/footprints/micro-sd/micro-sd.pretty")(options "")(descr ""))
   (lib (name usb_otg)(type KiCad)(uri "$(KIPRJMOD)/footprints/usb_otg/usb_otg.pretty")(options "")(descr ""))
   (lib (name oscxo)(type KiCad)(uri "$(KIPRJMOD)/footprints/crystal/oscxo.pretty")(options "")(descr ""))
+  (lib (name SOA008-150mil)(type KiCad)(uri "$(KIPRJMOD)/footprints/flash/SOA008-150mil.pretty")(options "")(descr ""))
 )

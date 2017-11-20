@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -53,7 +53,7 @@ P 4200 2950
 F 0 "J3" H 3550 3650 50  0000 C CNN
 F 1 "Micro_SD_Card_Det" H 4850 3650 50  0000 R CNN
 F 2 "micro-sd:SCHD3A100" H 6250 3650 50  0001 C CNN
-F 3 "" H 4200 3050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/15/Alps_01172017_SCHD3A0100-1155838.pdf" H 4200 3050 50  0001 C CNN
 	1    4200 2950
 	1    0    0    -1  
 $EndComp
