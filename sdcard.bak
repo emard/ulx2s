@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -60,10 +60,10 @@ F 3 "http://www.mouser.com/ds/2/15/Alps_01172017_SCHD3A0100-1155838.pdf" H 4200 
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L GND #PWR1
 U 1 1 5A12C74D
 P 5000 3450
-F 0 "#PWR01" H 5000 3200 50  0001 C CNN
+F 0 "#PWR1" H 5000 3200 50  0001 C CNN
 F 1 "GND" H 5000 3300 50  0000 C CNN
 F 2 "" H 5000 3450 50  0001 C CNN
 F 3 "" H 5000 3450 50  0001 C CNN
