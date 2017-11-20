@@ -31,12 +31,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:lfxp2-xe-xtn144x
 LIBS:ulx2s-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -47,10 +48,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MB85RS16 U1
+L MB85RS16 U4
 U 1 1 5A12E0C4
 P 2850 2600
-F 0 "U1" H 2550 2850 50  0000 L CNN
+F 0 "U4" H 2550 2850 50  0000 L CNN
 F 1 "SST25VF032B" H 2900 2850 50  0000 L CNN
 F 2 "SOA008-150mil:SOA008-150mil" H 2500 2550 50  0001 C CNN
 F 3 "http://www.nxlab.fer.hr/dl/sst_flash.pdf" H 2500 2550 50  0001 C CNN
