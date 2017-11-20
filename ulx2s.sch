@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -95,5 +95,11 @@ S 9400 6000 550  400
 U 5A1338E7
 F0 "power" 60
 F1 "power.sch" 60
+$EndSheet
+$Sheet
+S 10150 5400 550  400 
+U 5A133C56
+F0 "audio" 60
+F1 "audio.sch" 60
 $EndSheet
 $EndSCHEMATC

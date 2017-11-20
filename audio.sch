@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -49,25 +49,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Micro_SD_Card_Det J3
-U 1 1 5A12C57E
-P 4200 2950
-F 0 "J3" H 3550 3650 50  0000 C CNN
-F 1 "Micro_SD_Card_Det" H 4850 3650 50  0000 R CNN
-F 2 "micro-sd:SCHD3A100" H 6250 3650 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/15/Alps_01172017_SCHD3A0100-1155838.pdf" H 4200 3050 50  0001 C CNN
-	1    4200 2950
+L Audio-Jack-5 J6
+U 1 1 5A133C61
+P 3650 2450
+F 0 "J6" H 3600 2660 50  0000 C CNN
+F 1 "Audio-Jack-5" H 3675 2075 50  0000 C CNN
+F 2 "audio-jack:CUI_SJ-43516-SMT" H 3900 2550 50  0001 C CNN
+F 3 "" H 3900 2550 50  0001 C CNN
+	1    3650 2450
 	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR1
-U 1 1 5A12C74D
-P 5000 3450
-F 0 "#PWR1" H 5000 3200 50  0001 C CNN
-F 1 "GND" H 5000 3300 50  0000 C CNN
-F 2 "" H 5000 3450 50  0001 C CNN
-F 3 "" H 5000 3450 50  0001 C CNN
-	1    5000 3450
-	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
