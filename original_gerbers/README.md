@@ -1,4 +1,4 @@
-Attached are your gerber and drill files compressed into a single .ZIP file.
+# Original Gerbers
 
 The gerber files are formatted as RS-274-X files.  The drill file includes 
 the hole size definitions.  The diameters listed refer to the finished hole 
@@ -23,4 +23,9 @@ GraphiCode's "GC-Prevue" can be downloaded at:
      http://www.graphicode.com
 Lavenir's "ViewMate" can be downloaded at:
      http://www.lavenir.com
+Gerbv
+     http://http://gerbv.sourceforge.net
 
+When viewed with gerbv, .INT .INB show as inverted video
+(copper and non-copper areas swapped) and drill file .DRI
+is not to scale (maybe its mm instead of inch scale)
