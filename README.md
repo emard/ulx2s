@@ -9,3 +9,5 @@ Currently we have original gerbers pictures and the
 
 ![TOP](/pic/ulx2st.jpg)
 ![BOTTOM](/pic/ulx2sb.jpg)
+![3D_TOP](/pic/ulx2s3dt.jpg)
+![3D_BOTTOM](/pic/ulx2s3db.jpg)
