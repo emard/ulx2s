@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ulx2s-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
