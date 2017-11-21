@@ -2148,7 +2148,7 @@
   )
 
   (module SMD_Packages:SSOP-20 (layer B.Cu) (tedit 0) (tstamp 5A134E79)
-    (at 148.59 90.805 180)
+    (at 148.59 92.71 180)
     (descr "SSOP 20 pins")
     (tags "CMS SSOP SMD")
     (path /5A12CCA6/5A134DAE)
