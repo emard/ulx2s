@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:ulx2s-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -53,12 +52,12 @@ $EndDescr
 $Comp
 L Audio-Jack-5 J6
 U 1 1 5A133C61
-P 3650 2450
-F 0 "J6" H 3600 2660 50  0000 C CNN
-F 1 "Audio-Jack-5" H 3675 2075 50  0000 C CNN
-F 2 "audio-jack:CUI_SJ-43516-SMT" H 3900 2550 50  0001 C CNN
-F 3 "" H 3900 2550 50  0001 C CNN
-	1    3650 2450
+P 2850 3150
+F 0 "J6" H 2800 3360 50  0000 C CNN
+F 1 "Audio-Jack-5" H 2875 2775 50  0000 C CNN
+F 2 "audio-jack:CUI_SJ-43516-SMT" H 3100 3250 50  0001 C CNN
+F 3 "" H 3100 3250 50  0001 C CNN
+	1    2850 3150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
